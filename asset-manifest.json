@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.df6a7eab.css",
-    "main.js": "/static/js/main.22bc2de2.js",
-    "static/js/919.0afe259b.chunk.js": "/static/js/919.0afe259b.chunk.js",
-    "static/media/jpmcsummer.png": "/static/media/jpmcsummer.2c036ab428e3f808342e.png",
-    "static/media/headshot.jpg": "/static/media/headshot.4fee733efcd4c9baa4b8.jpg",
-    "static/media/openworld.png": "/static/media/openworld.ebf16cb5f677261254bf.png",
-    "static/media/fuga.png": "/static/media/fuga.45aee41b7bf54f3e3363.png",
-    "static/media/bees-knees.png": "/static/media/bees-knees.644dd6ba7f0f671fec5d.png",
-    "static/media/csedu.png": "/static/media/csedu.5826a6e70977624e5a5f.png",
-    "static/media/legion.png": "/static/media/legion.c26fb7c3b75ce3ff3bba.png",
-    "static/media/chatgeminipro.png": "/static/media/chatgeminipro.5949f476dbdf921ab598.png",
-    "static/media/kwai.png": "/static/media/kwai.07fd651a1f9acbaff1a5.png",
-    "static/media/creativity.png": "/static/media/creativity.8920249df5bb6edafec2.png",
-    "static/media/forage.png": "/static/media/forage.e56feb550e35583b4783.png",
-    "static/media/jpmorganhackathon.png": "/static/media/jpmorganhackathon.3f54584ad8ee87bf1433.png",
-    "static/media/gtech.jpg": "/static/media/gtech.75f147e950a27779ee09.jpg",
-    "index.html": "/index.html",
-    "main.df6a7eab.css.map": "/static/css/main.df6a7eab.css.map",
-    "main.22bc2de2.js.map": "/static/js/main.22bc2de2.js.map",
-    "919.0afe259b.chunk.js.map": "/static/js/919.0afe259b.chunk.js.map"
+    "main.css": "/MyPage/static/css/main.df6a7eab.css",
+    "main.js": "/MyPage/static/js/main.9b77c7d1.js",
+    "static/js/919.0afe259b.chunk.js": "/MyPage/static/js/919.0afe259b.chunk.js",
+    "static/media/jpmcsummer.png": "/MyPage/static/media/jpmcsummer.2c036ab428e3f808342e.png",
+    "static/media/headshot.jpg": "/MyPage/static/media/headshot.4fee733efcd4c9baa4b8.jpg",
+    "static/media/openworld.png": "/MyPage/static/media/openworld.ebf16cb5f677261254bf.png",
+    "static/media/fuga.png": "/MyPage/static/media/fuga.45aee41b7bf54f3e3363.png",
+    "static/media/bees-knees.png": "/MyPage/static/media/bees-knees.644dd6ba7f0f671fec5d.png",
+    "static/media/csedu.png": "/MyPage/static/media/csedu.5826a6e70977624e5a5f.png",
+    "static/media/legion.png": "/MyPage/static/media/legion.c26fb7c3b75ce3ff3bba.png",
+    "static/media/chatgeminipro.png": "/MyPage/static/media/chatgeminipro.5949f476dbdf921ab598.png",
+    "static/media/kwai.png": "/MyPage/static/media/kwai.07fd651a1f9acbaff1a5.png",
+    "static/media/creativity.png": "/MyPage/static/media/creativity.8920249df5bb6edafec2.png",
+    "static/media/forage.png": "/MyPage/static/media/forage.e56feb550e35583b4783.png",
+    "static/media/jpmorganhackathon.png": "/MyPage/static/media/jpmorganhackathon.3f54584ad8ee87bf1433.png",
+    "static/media/gtech.jpg": "/MyPage/static/media/gtech.75f147e950a27779ee09.jpg",
+    "index.html": "/MyPage/index.html",
+    "main.df6a7eab.css.map": "/MyPage/static/css/main.df6a7eab.css.map",
+    "main.9b77c7d1.js.map": "/MyPage/static/js/main.9b77c7d1.js.map",
+    "919.0afe259b.chunk.js.map": "/MyPage/static/js/919.0afe259b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.df6a7eab.css",
-    "static/js/main.22bc2de2.js"
+    "static/js/main.9b77c7d1.js"
   ]
 }
