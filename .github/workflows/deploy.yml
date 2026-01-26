@@ -14,7 +14,7 @@ permissions:
 
 jobs:
   github-pages:
-    if: github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/new-react-portfolio'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -55,7 +55,7 @@ jobs:
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_AMBITIOUS_GROUND_09FC3450F }}
           action: "upload"
-          app_location: "/"
+          app_location: "."
           api_location: ""
           output_location: "build"
           skip_app_build: true
