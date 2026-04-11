@@ -3,13 +3,16 @@ import FullScreenSection from "./FullScreenSection";
 import { Box, Heading } from "@chakra-ui/react";
 import Card from "./Card";
 
+const getImageSrc = (fileName) =>
+  new URL(`../images/${fileName}`, import.meta.url).href;
+
 const projects = [
   {
     title: "Honors Thesis at CSEDU 2024 as Short Paper",
     description: "My honors thesis was accepted as a short paper at CSEDU 2024! \
     Nothing new, but just proud that my yearslong work is being recognized by the academic community :D",
     url: "https://www.insticc.org/node/TechnicalProgram/CSEDU/2024/presentationDetails/126321",
-    getImageSrc: () => require("../images/csedu.png")
+    getImageSrc: () => getImageSrc("csedu.png")
   },
   {
     title: "ChatGeminiPro",
@@ -18,7 +21,7 @@ const projects = [
     rapidly develop a simple, powerful chatbot while also learning to integrate Google's new Gemini Pro API into my project. \
     It was a great experience and I hope to continue working on it in the future!",
     url: "https://github.com/elijah-chou/GeminiPro-chatbot",
-    getImageSrc: () => require("../images/chatgeminipro.png")
+    getImageSrc: () => getImageSrc("chatgeminipro.png")
   },
   {
     title: "Legion: Writing Assistant Daemons",
@@ -29,7 +32,7 @@ const projects = [
     I worked on prompt engineering and the backend, while Aditya Prakash and Rayvant Sahni worked on the frontend \
     and user feedback, respectively. The accompanying code can be found on my GitHub profile. :D Hurray for AI",
     url: "https://elijah-chou.github.io/humanAIinteraction/",
-    getImageSrc: () => require("../images/legion.png")
+    getImageSrc: () => getImageSrc("legion.png")
   },
   {
     title: "JPMC Summer 2023: Airflow Autohealing",
@@ -40,7 +43,7 @@ const projects = [
     given permission to brag that I worked and contributed significantly to a project that can save JPMorgan \
     Chase & Co. $5 million per year. Super busy but super fulfilling summer! Also participated in the firm's \
     Global Innovation Week Hackathon, and my team won 1st Place in the Atlanta tech center :D",
-    getImageSrc: () => require("../images/jpmcsummer.png")
+    getImageSrc: () => getImageSrc("jpmcsummer.png")
   },
   {
     title: "5GSpear: Naval Base Fuel Ordering",
@@ -50,7 +53,7 @@ const projects = [
     application that will be used as a fuel ordering system for naval bases. Through this project, I \
     worked with an MVC framework using Python, HTML/CSS, and some JavaScript since an embedded map \
     was served as a separate React app. I also worked with Docker and learned more about containers here.",
-    getImageSrc: () => require("../images/gtech.jpg")
+    getImageSrc: () => getImageSrc("gtech.jpg")
   },
   {
     title: "Creativity in programming: A code distance approach",
@@ -61,7 +64,7 @@ const projects = [
     between trees to calculate a creativity measure for programs. More info can be found in my publicly \
     published thesis in the link below.",
     url: "https://etd.library.emory.edu/concern/etds/b8515p78f",
-    getImageSrc: () => require("../images/creativity.png")
+    getImageSrc: () => getImageSrc("creativity.png")
   },
   {
     title: "JPMorgan Chase Code for Good: Coastal Compass at Home",
@@ -73,7 +76,7 @@ const projects = [
     could be easily accessible via any digital medium and that educational content could be easily inserted into our generalized \
     tutorial/walkthrough components. The repository is private and I can't fork it, but my internship offer is hopefully enough \
     proof.",
-    getImageSrc: () => require("../images/jpmorganhackathon.png")
+    getImageSrc: () => getImageSrc("jpmorganhackathon.png")
   },
   {
     title: "AT&T: AI/ML Model Blockchain Ledger",
@@ -82,13 +85,13 @@ const projects = [
     where we attempted to create an immutable ledger of AI and ML models. I developed the ledger with the Corda blockchain \
     framework and also developed a front-end UI with Springboot and AngularJS. There's no place where you can find more \
     information since it's all stored in a private, corporate repository, but this was a great experience nevertheless!",
-    getImageSrc: () => require("../images/att.png")
+    getImageSrc: () => getImageSrc("att.png")
   },
   {
     title: "Forage Article Cameo",
     description: "I was featured on a Forage article! Find out a little more about my unique path in the link below.",
     url: "https://www.theforage.com/blog/news/most-in-demand-student-degrees.",
-    getImageSrc: () => require("../images/forage.png")
+    getImageSrc: () => getImageSrc("forage.png")
 
   },
   {
@@ -102,7 +105,7 @@ const projects = [
       usage. Our team was led by Noah Okada and consisted of Matthew Joesoep, Asuka Li, Ameer Husary, \
       Abdullah Hamid, Joseph Pogue, and myself.",
     url: "https://ameerhusary.github.io/K-WAi/",
-    getImageSrc: () => require("../images/kwai.png"),
+    getImageSrc: () => getImageSrc("kwai.png"),
   },
   {
     title: "Bees Knees: An Agent-Based Model of Varroa Mite Infestation of Bee Hives",
@@ -115,7 +118,7 @@ const projects = [
       Further refinement of the model could help beekeepers predict an essential oil cocktail that would be the most effective \
       against varroa mite infestation.",
     url: "https://github.com/elijah-chou/Bees-Knees-An-Agent-Based-Model-of-Varroa-Mite-Infestation-of-Bee-Hives",
-      getImageSrc: () => require("../images/bees-knees.png"),
+      getImageSrc: () => getImageSrc("bees-knees.png"),
   },
   {
     title: "Fuga dal Penitenziario",
@@ -125,7 +128,7 @@ const projects = [
       Emory University. Our main task was to make a game that would serve as a learning supplement to students who are \
       taking ITAL 101 (the first introductory class in Italian language).",
     url: "https://ecool7079.itch.io/fuga-dal-penitenziario",
-    getImageSrc: () => require("../images/fuga.png"),
+    getImageSrc: () => getImageSrc("fuga.png"),
   },
   {
     title: "Open World Atlanta",
@@ -135,7 +138,7 @@ const projects = [
       My contributions to this ongoing project is mainly focused on developing the dynamic integration of Atlanta \
       building data to the building layer using Omeka API. I worked with React and JavaScript primarily for this project.",
     url: "https://atlanta.urbanspatialhistory.org/",
-    getImageSrc: () => require("../images/openworld.png"),
+    getImageSrc: () => getImageSrc("openworld.png"),
   },
 ];
 
