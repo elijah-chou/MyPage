@@ -51,7 +51,7 @@
     "jsdom": "^27.0.1",
     "prettier": "^2.7.1",
     "vite": "^7.1.10",
-    "vitest": "^3.2.4"
+    "vitest": "^3.2.6"
   },
   "homepage": "https://elijah-chou.github.io/MyPage"
 }
