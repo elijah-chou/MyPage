@@ -30,7 +30,8 @@
     "build:gh": "cross-env VITE_BASE_PATH=/MyPage/ vite build",
     "deploy:gh": "npm run build:gh && gh-pages -d build",
     "test": "vitest",
-    "test:ci": "vitest run"
+    "test:ci": "vitest run",
+    "test:coverage": "vitest run --coverage"
   },
   "browserslist": {
     "production": [
@@ -46,6 +47,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^5.0.4",
+    "@vitest/coverage-v8": "^4.1.12",
     "cross-env": "^7.0.3",
     "gh-pages": "^6.3.0",
     "jsdom": "^27.0.1",
